@@ -1,12 +1,49 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: "Noto Sans", sans-serif;
 }
 
 body, html {
     height: 100%;
     width: 100%;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='2900' height='1400' preserveAspectRatio='none' viewBox='0 0 2900 1400'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1029%26quot%3b)' fill='none'%3e%3crect width='2900' height='1400' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M402.98 1623.63C672.25 1607.43 869.71 1110.57 1351.5 1109.24 1833.29 1107.91 1825.77 1284.24 2300.03 1284.24 2774.29 1284.24 3007.42 1109.97 3248.55 1109.24' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M875.78 1559.47C1141.05 1455.4 953.26 699.94 1557.32 645.84 2161.39 591.74 2565.85 257.71 2920.41 253.84' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1274.54 1511.6C1468.85 1461.48 1323.16 986.53 1827.36 929.65 2331.56 872.77 2620.44 359.56 2933 341.65' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M992.73 1591.87C1233.73 1539.59 1164.57 909.2 1703.89 908.32 2243.21 907.44 2759.19 1269.45 3126.22 1272.32' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M676.73 1523.97C997.99 1428.91 1073.79 538.65 1562.54 518.37 2051.28 498.09 2005.44 693.37 2448.34 693.37 2891.25 693.37 3108.42 519.2 3334.15 518.37' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1029'%3e%3crect width='2900' height='1400' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(250, 250, 250);
+    font-size: 3rem;
+    margin: 50px;
+}
+
+textarea {
+    width: 90vw;
+    height: 60vh;
+    background-color:rgb(214, 214, 231);
+    border: 4px solid #000;
+    border-radius: 4px;
+    resize: none;
+}
+
+.words, .characters {
+    display: inline;
+}
+
+p {
+    color: rgb(173, 173, 173);
+}
+
+
+
+
 
